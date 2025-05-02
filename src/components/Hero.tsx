@@ -101,13 +101,10 @@ const Hero: React.FC = () => {
             </div>
             <div className="flex flex-wrap gap-4">
               <a 
-                href="/mehak-resume.pdf" 
+                href="https://drive.google.com/file/d/1uprjfeXz_Wp_HIL1EjQaHTLFi-E-2DEV/view?usp=sharing" 
                 className="btn btn-primary flex items-center gap-2 backdrop-blur-sm"
-                download
-                onClick={(e) => {
-                  e.preventDefault();
-                  alert('Resume download functionality would be implemented here!');
-                }}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Download size={18} />
                 Download CV

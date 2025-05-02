@@ -119,7 +119,7 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <h4 className="text-lg font-medium">Location</h4>
-                <p className="text-slate-600">Delhi, India</p>
+                <p className="text-slate-600">Ludhiana, Punjab, India</p>
               </div>
             </div>
           </div>
